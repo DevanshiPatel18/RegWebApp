@@ -1,0 +1,258 @@
+* {
+    border: 0;
+    margin: 0;
+    
+}
+
+@media(max-width: 700px){
+    img{
+        width:100%;
+        height:10%;
+    }
+    header{
+        width:50%;
+        background-color: cyan;
+    }
+    .image{
+        width: 100%;
+        position: relative;
+    }
+    header h1{
+        float: left;
+        padding: 2px 2px;
+    }
+    .list{
+        float:left;
+        padding-left: 1px;
+    }
+    .list li{
+        float: left;
+        padding: 3px 2px;
+    }
+    header{
+        height: fit-content;
+        width:100%
+    }
+    .parallax{
+        width: 100%;
+        min-height: 10px; 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    header h1{
+        float: left;
+        padding: 2px 2px;
+    }
+    .list{
+        float:left;
+        padding-left: 10px;
+    }
+    .list li{
+        float: left;
+        padding: 3px 2px;
+    }
+    .first-image{
+        position: relative;
+        text-align: center;
+    }
+    .white-sections{
+        position: absolute;
+        top: 2px;
+        color: whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        width:100%;
+        font-size: 4px;
+    }
+    .content{
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        color: chocolate;
+        font-size: 2px;
+    }
+    .content p{
+        text-align: center;
+    }
+    .write-up{
+        padding: 9px;
+    }
+    footer{
+        font-size: 1px;
+        color: black
+    }
+    footer h1{
+        float: left;
+        padding: 2px 2px;
+    }
+    .llist{
+        float:left;
+        padding-left: 1px;
+    }
+    .llist li{
+        float: left;
+        padding: 2px 1px;
+    }
+}
+    @media(max-width: 1000px){
+        img{
+            width:100%;
+            height:10%;
+        }
+        header{
+            width:100%;
+            background-color: cyan;
+        }
+        .image{
+            width: 100%;
+            position: relative;
+        }
+        header h1{
+            float: left;
+            padding: 2px 2px;
+        }
+        .list{
+            float:left;
+            padding-left: 1px;
+        }
+        .list li{
+            float: left;
+            padding: 3px 2px;
+        }
+        header{
+            height: fit-content;
+            width:100%
+        }
+        .parallax{
+            width: 100%;
+            min-height: 10px; 
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        header h1{
+            float: left;
+            padding: 2px 2px;
+        }
+        .list{
+            float:left;
+            padding-left: 10px;
+        }
+        .list li{
+            float: left;
+            padding: 3px 2px;
+        }
+       
+        .white-sections{
+            position: absolute;
+            top: 2px;
+            color: whitesmoke;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            width:100%;
+            font-size: 4px;
+        }
+        .content{
+            font-family: 'Courier New', Courier, monospace;
+            width: 100%;
+            color: chocolate;
+            font-size: 2px;
+        }
+        .content p{
+            text-align: center;
+        }
+        .write-up{
+            padding: 9px;
+        }
+        footer{
+            font-size: 1px;
+            color: black
+        }
+        footer h1{
+            float: left;
+            padding: 2px 2px;
+        }
+        .llist{
+            float:left;
+            padding-left: 1px;
+        }
+        .llist li{
+            float: left;
+            padding: 2px 1px;
+        }
+    }
+header{
+    height: 50px;
+    width:100%
+}
+.parallax{
+    width: 100%;
+    min-height: 1000px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image{
+    width: 100%;
+    position: relative;
+}
+header h1{
+    float: left;
+    padding: 20px 20px;
+}
+.list{
+    float:left;
+    padding-left: 1041px;
+}
+.list li{
+    float: left;
+    padding: 50px 20px;
+}
+.first-image{
+    position: relative;
+    text-align: center;
+}
+header .llist{
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 20px;
+}
+.white-sections{
+    position: absolute;
+    top: 280px;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width:100%;
+    font-size: 45px;
+}
+.content{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    color: chocolate;
+    font-size: 25px;
+}
+.content p{
+    text-align: center;
+}
+.write-up{
+    padding: 90px;
+}
+footer{
+    font-size: 15px;
+    color: black
+}
+footer h1{
+    float: left;
+    padding: 20px 20px;
+}
+.llist{
+    float:left;
+    padding-left: 1100px;
+}
+.llist li{
+    float: left;
+    padding: 20px 10px;
+}

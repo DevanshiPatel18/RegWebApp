@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login In | Photography</title>
+    <style>
+      *{
+        margin:0;
+      }
+     body{
+       width: 100%;
+       height: 100%; 
+       
+     }
+     .container{
+       text-align: center;
+       position: absolute;
+       width: auto;
+       height: auto;
+       background-color: aqua;
+       top: 150px;
+      left: 40%;
+     }
+    .user-details{
+      position: absolute;
+     padding: 20px;
+     background-color:lightgray;
+      font-style: oblique;
+      color:darkslategray;
+      opacity: 1;
+      width: max-content;
+      
+    }
+    img{
+      width: 100%;
+    }
+    a{
+      color:darkslategray;
+      font-size: 20px;
+    }
+    input{
+      opacity: 0.5;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+    </header>
+    <!--<h1>{{a}}</h1> -->
+        <!--action in form tag calls the backend when the submit button is clicked
+     also the backend wont work without submit button or action attribute-->
+   <img src="static/styles/2.jpg">
+     <div class="container">
+        <div class = "user-details" style="font-size: 23px;line-height: 1.3;letter-spacing: 0.178em;font-weight: 700;font-style: normal;">
+          <div class="details">
+            <form class="mypage" action="/login" method="POST">
+              Username :<input type="text" name="uname" /><br />
+              <br />Password :<input type="password" name="pwd" /><br />
+              <br /> <input type="submit" value="Submit" placeholder="click here" style="font-size: 18px;line-height: 1.8;letter-spacing: 0.213em;font-weight: 300;">
+            </form>
+            <div><a href="/signup">new user?</a></div>
+          </div>
+        </div>
+      </div> 
+    </header>
+  </body>
+</html>
